@@ -11,6 +11,3 @@
 **Java Script**
 
 **Framework CSS Bootstrap**
-
-asdf
-
