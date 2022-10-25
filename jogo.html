@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="mouse" lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - Mata Mosquito</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body onresize="ajustaTamanhoTelaJogo()">
+    <div class="painel">
+        <div class="vida">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAdVJREFUaEPtmf1RAyEQxR+dmEo0nZhKTCoxnZhUYjrBeR6M5wHH98fpMZM/klmW99uFZZkIbHyIjevHDtA7g3sGNpcBCbwCeAbwpD4PBXEDcAfwEID+zeBT8/k7fbwoA21/8c1fOgzeQhJ4A3AOiDjFXARwndsq4e8B82lyAnBbC4T24wWQU5S4MCMeM5gRCuHgfB3tUB8MxNEHsQqgxH+ErljJ7rTM5nwdJ4CcIv5ZSVSs24MrE1aAwcQT1rmdXAChBzY2kjn2ZwGwSv0aBsCA0Z8LNraSDWDE6GsI40BvDeAqfkrzN5QNgGUztmbn7O2YubzcjqtlVAIyxmNjW7YpBx8Aa3/srduK438AsG9hxzniMO4C2yGm+NCusTWkH4CK5NQDDXcOhKVq/r1WQu+JwbJgVB+t09dO81IbYSvxYcMHkjF8Dxr2RTzUPSGc4q2txBJRvYV7QayKDwJQValHJrzigwE6QASJjwJoCBEsPhqgAUSU+CSAihDR4pMBKkAkic8CKAiRLD4boABElvgiABkQ2eKLASRAFBFfFCACopj44gABEEXFVwFYgSguvhqABaKK+KoAM4i76zGybN1Tvnv/Ykpx2nLODtAy2ra19gz0zsAXYkN/MRrj/5YAAAAASUVORK5CYII=" class="coracao"  id="v1"/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAdVJREFUaEPtmf1RAyEQxR+dmEo0nZhKTCoxnZhUYjrBeR6M5wHH98fpMZM/klmW99uFZZkIbHyIjevHDtA7g3sGNpcBCbwCeAbwpD4PBXEDcAfwEID+zeBT8/k7fbwoA21/8c1fOgzeQhJ4A3AOiDjFXARwndsq4e8B82lyAnBbC4T24wWQU5S4MCMeM5gRCuHgfB3tUB8MxNEHsQqgxH+ErljJ7rTM5nwdJ4CcIv5ZSVSs24MrE1aAwcQT1rmdXAChBzY2kjn2ZwGwSv0aBsCA0Z8LNraSDWDE6GsI40BvDeAqfkrzN5QNgGUztmbn7O2YubzcjqtlVAIyxmNjW7YpBx8Aa3/srduK438AsG9hxzniMO4C2yGm+NCusTWkH4CK5NQDDXcOhKVq/r1WQu+JwbJgVB+t09dO81IbYSvxYcMHkjF8Dxr2RTzUPSGc4q2txBJRvYV7QayKDwJQValHJrzigwE6QASJjwJoCBEsPhqgAUSU+CSAihDR4pMBKkAkic8CKAiRLD4boABElvgiABkQ2eKLASRAFBFfFCACopj44gABEEXFVwFYgSguvhqABaKK+KoAM4i76zGybN1Tvnv/Ykpx2nLODtAy2ra19gz0zsAXYkN/MRrj/5YAAAAASUVORK5CYII=" class="coracao" id="v2"/>
+            <img class="coracao" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAdVJREFUaEPtmf1RAyEQxR+dmEo0nZhKTCoxnZhUYjrBeR6M5wHH98fpMZM/klmW99uFZZkIbHyIjevHDtA7g3sGNpcBCbwCeAbwpD4PBXEDcAfwEID+zeBT8/k7fbwoA21/8c1fOgzeQhJ4A3AOiDjFXARwndsq4e8B82lyAnBbC4T24wWQU5S4MCMeM5gRCuHgfB3tUB8MxNEHsQqgxH+ErljJ7rTM5nwdJ4CcIv5ZSVSs24MrE1aAwcQT1rmdXAChBzY2kjn2ZwGwSv0aBsCA0Z8LNraSDWDE6GsI40BvDeAqfkrzN5QNgGUztmbn7O2YubzcjqtlVAIyxmNjW7YpBx8Aa3/srduK438AsG9hxzniMO4C2yGm+NCusTWkH4CK5NQDDXcOhKVq/r1WQu+JwbJgVB+t09dO81IbYSvxYcMHkjF8Dxr2RTzUPSGc4q2txBJRvYV7QayKDwJQValHJrzigwE6QASJjwJoCBEsPhqgAUSU+CSAihDR4pMBKkAkic8CKAiRLD4boABElvgiABkQ2eKLASRAFBFfFCACopj44gABEEXFVwFYgSguvhqABaKK+KoAM4i76zGybN1Tvnv/Ykpx2nLODtAy2ra19gz0zsAXYkN/MRrj/5YAAAAASUVORK5CYII="  id="v3"/>
+        </div>
+        <div class="cronometro">
+            <div>Tempo restante: <span id="tempo"></span> </div>
+        </div>
+    </div>
+ <script>
+    document.getElementById('tempo').innerHTML = tempo
+
+    var criaMosca = setInterval(function(){
+        posicaoRandomica()
+    }, tempoCriaMosca)
+ </script> 
+</body>
+</html>
