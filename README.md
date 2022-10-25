@@ -1,13 +1,31 @@
-# Game Mata Mosquito
- 
-*Jogo desenvolvido para aperfeiçoamento de Habilidades de desenvolvimento web*
+<h1 align="center">Mata mosquito</h1>
+<h1 align="center"><img src="./public/img/mata-mosquito-home.PNG"></h1>
 
-## Tecnologias usadas:
+<hr>
 
-**HTML**
+### 📚 Sobre
 
-**CSS**
+O jogo Mata mosquito, é um jogo desenvolvido para aperfeiçoamento de habilidades, desenvolvido durante o curso de introdução ao desenvolvimento WEB.
+Feito para a prática do conteúdo JavaScript.
 
-**Java Script**
+O jogo tem como objetivo matar os mosquitos que irão aparecer na tela, e tem 4 níveis de dificuldade
 
-**Framework CSS Bootstrap**
+<hr>
+
+### 💻 Tecnologias utilizadas:
+
+Neste aplicativo foram utilizadas as seguintes tecnologias:
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [Bootstrap](https://getbootstrap.com/)
+
+### ✈️ Como acessar o Jogo:
+
+Hospedado no GitHub Pages
+
+http://gabrielmdeveloper.ga/
+
+Ou Faça o download do repositório e execute index.html
+
