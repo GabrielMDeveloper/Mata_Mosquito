@@ -56,8 +56,8 @@ function posicaoRandomica(){
 if(vida <= 0){
         window.location.href = 'gameOver.html'
     }else{
-        document.getElementById('v' + vida).src = 
-        'imagens/coracao_vazio.png'
+        document.getElementById('v' + vida).src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvFldsRgjAQRc92opUolSiVCJWolUgn0kmchYA8EhIwjPsDE8I9uTcvYeeSnfX5D8DAGbjQPmvr8inw0HcDV+Dk+z5MZebAwMv+6Eqvso0KdpUOoJTvoMYRBcRjp6sQKLvOvQMbi44+ReVdnEPAnTbbFPUQyFVoCDAplK1GJZBNAW/gkAhSCxyngJQROR3cgCKRg0ygWdKjfWAghYt+9C6AzoEu1a1z0Wc/2wddg2nFt0Bm4jMHP0Cc4l6APdBinXjFFwGRkEXxICAACYpHATyQKPFowASim6c5BmJq1ZWpS3h4mSQHxAhO+6xysAXwAbzbPhnumbukAAAAAElFTkSuQmCC'
+        
         vida -= 1
     }    
     }
