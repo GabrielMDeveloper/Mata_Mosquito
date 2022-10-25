@@ -6,9 +6,12 @@ var vida = 3
 var tempoCriaMosca = 1000
 //Fim Declaração Variáveis
 
+//Inicio dos códigos de nível de jogo:
 var nivel = window.location.search
 nivel = nivel.replace('?', '')
-if(nivel == 'facil'){
+if(nivel == 'muito_facil'){
+    tempoCriaMosca = 2000
+}else if(nivel == 'facil'){
     tempoCriaMosca = 1500
 }else if(nivel == 'medio'){
     tempoCriaMosca = 1000
@@ -35,8 +38,8 @@ function ajustaTamanhoTelaJogo(){
 
 ajustaTamanhoTelaJogo()
 
+//Cronometro:
 var cronometro = setInterval(function(){
-
     tempo -= 1
     if(tempo < 0){
         clearInterval(cronometro)
