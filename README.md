@@ -1,5 +1,5 @@
 <h1 align="center">Mata mosquito</h1>
-<h1 align="center"><img src="./public/img/mata-mosquito-home.PNG"></h1>
+<h1 align="center"><img src="imagens/game.png"></h1>
 
 <hr>
 
