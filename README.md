@@ -6,7 +6,7 @@
 ### 📚 Sobre
 
 O jogo Mata mosquito, é um jogo desenvolvido para aperfeiçoamento de habilidades, desenvolvido durante o curso de introdução ao desenvolvimento WEB.
-Feito para a prática do conteúdo JavaScript.
+Feito para a prática do conteúdo JavaScript. <br>
 
 O jogo tem como objetivo matar os mosquitos que irão aparecer na tela, e tem 4 níveis de dificuldade
 
@@ -14,7 +14,7 @@ O jogo tem como objetivo matar os mosquitos que irão aparecer na tela, e tem 4 
 
 ### 💻 Tecnologias utilizadas:
 
-Neste aplicativo foram utilizadas as seguintes tecnologias:
+Neste aplicativo Web foram utilizadas as seguintes tecnologias:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
@@ -25,7 +25,8 @@ Neste aplicativo foram utilizadas as seguintes tecnologias:
 
 Hospedado no GitHub Pages
 
-http://gabrielmdeveloper.ga/
+-  [Mata Mosquito](https://gabrielmdeveloper.github.io/Mata_Mosquito/)
+
 
 Ou Faça o download do repositório e execute index.html
 
