@@ -3,6 +3,15 @@
 
 <hr>
 
+### ✈️ Como acessar o Jogo:
+
+Hospedado no GitHub Pages
+
+-  [Mata Mosquito](https://gabrielmdeveloper.github.io/Mata_Mosquito/)
+
+
+Ou Faça o download do repositório e execute index.html
+
 ### 📚 Sobre
 
 O jogo Mata mosquito, é um jogo desenvolvido para aperfeiçoamento de habilidades, desenvolvido durante o curso de introdução ao desenvolvimento WEB.
@@ -21,12 +30,4 @@ Neste aplicativo Web foram utilizadas as seguintes tecnologias:
 - [JavaScript](https://www.w3schools.com/js/)
 - [Bootstrap](https://getbootstrap.com/)
 
-### ✈️ Como acessar o Jogo:
-
-Hospedado no GitHub Pages
-
--  [Mata Mosquito](https://gabrielmdeveloper.github.io/Mata_Mosquito/)
-
-
-Ou Faça o download do repositório e execute index.html
 
